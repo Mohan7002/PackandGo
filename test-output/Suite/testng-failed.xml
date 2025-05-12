@@ -2,11 +2,26 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="Url" value="http://10.81.64.170/Automation/PackAndGo_v2/index.html"/>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="User" value="Admin"/>
-    <parameter name="Email" value="abc123@abc.com"/>
-    <parameter name="Pass" value="Admin@123"/>
+  <test thread-count="5" name="Login(failed)">
+    <parameter name="MobileNumber" value="9876543210"/>
+    <parameter name="User" value="pgGru"/>
+    <parameter name="Pass" value="freezeray"/>
+    <parameter name="Language" value="German"/>
     <classes>
+      <class name="org.tests.EditProfileTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="editProfile_Test"/>
+        </methods>
+      </class> <!-- org.tests.EditProfileTest -->
+      <class name="org.tests.BookingTest">
+        <methods>
+          <include name="booking_Verify"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.tests.BookingTest -->
       <class name="org.tests.LoginTest">
         <methods>
           <include name="tearDown"/>
@@ -15,5 +30,19 @@
         </methods>
       </class> <!-- org.tests.LoginTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" name="SignUp(failed)">
+    <parameter name="User" value="Admin"/>
+    <parameter name="Email" value="abc123@abc.com"/>
+    <parameter name="Pass" value="Admin@123"/>
+    <classes>
+      <class name="org.tests.SignupTest">
+        <methods>
+          <include name="signup_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.tests.SignupTest -->
+    </classes>
+  </test> <!-- SignUp(failed) -->
 </suite> <!-- Failed suite [Suite] -->

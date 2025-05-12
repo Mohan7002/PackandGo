@@ -7,9 +7,12 @@
 	<test name="Login">
 		<parameter name="User" value="pgGru"></parameter>
 		<parameter name="Pass" value="freezeray"></parameter>
+		<parameter name="Language" value="German"></parameter>
+		<parameter name="MobileNumber" value="9876543210"></parameter>
 		<classes>
 			<class name="org.tests.LoginTest" />
 			<class name ="org.tests.BookingTest"/>
+			<class name ="org.tests.EditProfileTest"/>
 		</classes>
 	</test>
 	<test name="SignUp">
