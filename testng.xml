@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="Url"
+		value="http://10.81.64.170/Automation/PackAndGo_v2/index.html" />
+	<test name="Login">
+		<parameter name="User" value="pgGru"></parameter>
+		<parameter name="Pass" value="freezeray"></parameter>
+		<classes>
+			<class name="org.tests.LoginTest" />
+			<class name ="org.tests.BookingTest"/>
+		</classes>
+	</test>
+	<test name="SignUp">
+		<parameter name="User" value="Admin" />
+		<parameter name="Pass" value="Admin@123" />
+		<parameter name="Email" value="abc123@abc.com" />
+		<classes>
+
+			<class name="org.tests.SignupTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

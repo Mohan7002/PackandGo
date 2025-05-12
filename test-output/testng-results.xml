@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-12T12:39:57 IST" name="Suite" finished-at="2025-05-12T12:40:31 IST" duration-ms="34299">
+    <groups>
+    </groups>
+    <test started-at="2025-05-12T12:39:57 IST" name="Login" finished-at="2025-05-12T12:40:22 IST" duration-ms="24817">
+      <class name="org.tests.BookingTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.BookingTest@6c64cb25]" started-at="2025-05-12T12:40:08 IST" name="setUp" finished-at="2025-05-12T12:40:20 IST" duration-ms="11170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pgGru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[freezeray]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://10.81.64.170/Automation/PackAndGo_v2/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="booking_Verify()[pri:0, instance:org.tests.BookingTest@6c64cb25]" started-at="2025-05-12T12:40:20 IST" name="booking_Verify" finished-at="2025-05-12T12:40:22 IST" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking_Verify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.BookingTest@6c64cb25]" started-at="2025-05-12T12:40:22 IST" name="tearDown" finished-at="2025-05-12T12:40:22 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.tests.BookingTest -->
+      <class name="org.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.tests.LoginTest@6572421]" started-at="2025-05-12T12:39:57 IST" name="setUp" finished-at="2025-05-12T12:40:07 IST" duration-ms="10126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pgGru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[freezeray]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://10.81.64.170/Automation/PackAndGo_v2/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_test()[pri:0, instance:org.tests.LoginTest@6572421]" started-at="2025-05-12T12:40:07 IST" name="login_test" finished-at="2025-05-12T12:40:08 IST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.LoginTest@6572421]" started-at="2025-05-12T12:40:08 IST" name="tearDown" finished-at="2025-05-12T12:40:08 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.tests.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2025-05-12T12:40:22 IST" name="SignUp" finished-at="2025-05-12T12:40:31 IST" duration-ms="9391">
+      <class name="org.tests.SignupTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.tests.SignupTest@6aeb35e6]" started-at="2025-05-12T12:40:22 IST" name="setUp" finished-at="2025-05-12T12:40:30 IST" duration-ms="7979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.81.64.170/Automation/PackAndGo_v2/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signup_Test()[pri:0, instance:org.tests.SignupTest@6aeb35e6]" started-at="2025-05-12T12:40:30 IST" name="signup_Test" finished-at="2025-05-12T12:40:31 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tests.SignupTest@6aeb35e6]" started-at="2025-05-12T12:40:31 IST" name="tearDown" finished-at="2025-05-12T12:40:31 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.tests.SignupTest -->
+    </test> <!-- SignUp -->
+  </suite> <!-- Suite -->
+</testng-results>
